@@ -32,7 +32,7 @@ process PICARD_COLLECTMULTIPLEMETRICS {
     }
     """
     picard \\
-        -Xmx${avail_mem}g \\
+        -Xmx2g \\
         CollectMultipleMetrics \\
         $args \\
         --INPUT $bam \\
